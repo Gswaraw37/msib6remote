@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan Form</title>
+</head>
+<body>
+    <form action="">
+        <table border="1" align="center" cellpadding="15" width="70%">
+            <thead>
+                <tr bgcolor="cyan">
+                    <th colspan="2">Latihan Form</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td width="120">
+                        <label for="">Masukkan Nama:</label>
+                    </td>
+                    <td>
+                        <input type="text" name="" id="" placeholder="Masukkan nama anda" size="50">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="">Masukkan Email:</label>
+                    </td>
+                    <td>
+                        <input type="email" name="" id="" placeholder="Masukkan alamat email" size="50">
+
+                        <!-- mengirim form yang sifatnya rahasia misal id -->
+                        <input type="hidden" name="" id="">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="">Gender:</label>
+                    </td>
+                    <td>
+                        <input type="radio" name="gender" value="L" checked>Laki - Laki &nbsp;
+                        <input type="radio" name="gender" value="P">Perempuan
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="">Hobby:</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="hobby" id="" value="Membaca">Membaca <br>
+                        <input type="checkbox" name="hobby" id="" value="Menulis">Menulis <br>
+                        <input type="checkbox" name="hobby" id="" value="Olahraga">Olahraga <br>
+                        <input type="checkbox" name="hobby" id="" value="Makan">Makan <br>
+                        <input type="checkbox" name="hobby" id="" value="Tidur">Tidur <br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="">Education:</label>
+                    </td>
+                    <td>
+                        <select name="" id="">
+                            <option value="" selected>--Please Select Education--</option>
+                            <option value="sma">SMA</option>
+                            <option value="d3">D3</option>
+                            <option value="s1">S1</option>
+                            <option value="s2">S2</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="">Address:</label>
+                    </td>
+                    <td>
+                        <textarea name="" id="" cols=50" rows="10"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="">Disabled</label>
+                    </td>
+                    <td>
+                        <input type="text" disabled>
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th colspan="2">
+                        <input type="submit" value="Kirim">&nbsp;&nbsp;
+                        <input type="reset" value="Batal">
+                    </th>
+                </tr>
+            </tfoot>
+        </table>
+    </form>
+</body>
+</html>

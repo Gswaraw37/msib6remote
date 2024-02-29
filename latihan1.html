@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan Pertama</title>
+    <!-- contoh pemanggilan css eksternal -->
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <!-- <style>
+        /* ini adalah contoh selector tag dan internal css */
+        p{
+            color: cornflowerblue;
+            text-align: justify;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 12pt;
+        }
+    </style> -->
+</head>
+<body>
+    <!-- <embed src="./sound/bgsound.mp3" type=""> -->
+
+    <!-- h1 adalah contoh tag -->
+    <!-- align dan bgcolor adalah salah satu contoh atribut -->
+    <h1 align="center">
+        <marquee behavior="" direction="right" scrolldelay="100">
+            <!-- dibawah ini adalah contoh element -->
+            Welcome To My HomePage
+        </marquee>
+    </h1>
+    <!-- link menuju ke tag -->
+    <p align="right" id="atas"><a href="#bawah">kebawah</a></p>
+
+    <p align="justify">
+        <img src="./img/foto.jpg" alt="gambar profile" width="10%" align="left" hspace="10">
+        <!-- <img src="https://www.grindstore.com/cdn/shop/files/160297-front.jpg?v=1689942723" alt="" width="10%" align="left" hspace="10"> -->
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil, quibusdam libero, fugit consectetur sunt quod eligendi quae vero ipsa sapiente consequatur molestias eos vitae impedit facilis facere tenetur nisi suscipit cupiditate animi corrupti rerum. Aliquid officiis ipsum a quis rem explicabo dolorem veniam, maxime doloremque soluta, laborum facere provident, quod animi beatae nostrum laudantium. Quis aperiam nisi sequi nulla quos esse fugit. Facilis tempora nisi quia sint libero dolores!
+    </p>
+    <p style="text-align: center; color: burlywood;"> <!-- berikut adalah css inline -->
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id, similique quam magnam velit quibusdam ad. Libero vero porro, sed possimus nihil voluptatibus illo tempore quis inventore magnam sunt asperiores nulla!
+    </p>
+    <p id="paragraph">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem corrupti reprehenderit, itaque a maiores enim consectetur accusantium tenetur dignissimos, iste nihil magnam libero architecto. Eligendi quasi aspernatur rem amet obcaecati!
+    </p>
+
+    <fieldset>
+        <legend>
+            <font size="5" color="salmon" face="calibri">
+                Tentang Saya
+            </font>
+        </legend>
+        <ol type="A">
+            <li>Pendidikan</li>
+                <ul type="square">
+                    <li>SDN</li>
+                    <li>SMP</li>
+                    <li>SMA</li>
+                    <li>Kuliah</li>
+                        <ol type="a">
+                            <li>Semester 1</li>
+                            <li>Semester 2</li>
+                            <li>Semester 3</li>
+                        </ol>
+                </ul>
+            <li>Hobby</li>
+                <ul type="disc">
+                    <li>Olahraga</li>
+                    <li>Menulis</li>
+                    <li>Membaca</li>
+                </ul>
+            <a href="latihan2.html" target="_blank">
+            <li>Menu Favorite</li>
+            </a>
+                <ul>
+                    <li>Makanan</li>
+                    <li>Minuman</li>
+                </ul>
+        </ol>
+    </fieldset>
+
+    <p align="right" id="bawah"><a href="#atas">keatas</a></p>
+</body>
+</html>
