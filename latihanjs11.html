@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fungsi, Event Handler dan DOM</title>
+</head>
+<body>
+    <form action="" id="frm">
+        Nama : <input type="text" name="nama" placeholder="Silahkan Masukkan Nama Anda"><br>
+        Kelas : <input type="text" name="kelas" id="" placeholder="Silahkan Masukkan Kelas Anda"><br>
+        <input type="button" name="proses" id="" value="Salam" onclick="salam()">
+    </form>
+    <h2 id="hasil"></h2>
+    <script>
+        function salam(){
+            let siswa = document.getElementById('frm').nama.value;
+            let kelas = document.getElementById('frm').kelas.value;
+            let input = 'Selamat Pagi ' + siswa + '<br>Kelas ' + kelas;
+            let no_input = 'Maaf Nama atau Kelas Anda Belum Terisi';
+            let hasil = (siswa && kelas != '') ? input : no_input;
+
+            document.getElementById('hasil').innerHTML = hasil;
+        }
+    </script>
+</body>
+</html>
